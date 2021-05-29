@@ -25,7 +25,7 @@ train = Train(x_train, y_train)
 
 #%%
 # epsilon
-e = 3
+e = 0
 
 # Classify
 classifier = SpamClassification(train.P, train.P_ti, train.T, e)
@@ -41,9 +41,18 @@ confusion_matrix(y_test, predicted_y_test, Train.SPAM)
 
 print("\nprecision_spam: {:.5f}\n".format(precision(y_test, predicted_y_test, Train.SPAM)))
 
+print("\nrecall_spam: {:.5f}\n".format(recall(y_test, predicted_y_test, Train.SPAM)))
+
+print("\nprecision_ham: {:.5f}\n".format(precision(y_test, predicted_y_test, Train.HAM)))
+
+print("\nrecall_ham: {:.5f}\n".format(recall(y_test, predicted_y_test, Train.HAM)))
+
 print("Macro_averaging: {:.5f}".format(Macro_averaging(y_test, predicted_y_test)))
 
 #%%
+
+# Classfy spam
+
 mail = '''From 12a1mailbot1@web.de  Thu Aug 22 13:17:22 2002
 Return-Path: <12a1mailbot1@web.de>
 Delivered-To: zzzz@localhost.example.com

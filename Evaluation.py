@@ -93,6 +93,13 @@ def precision(expected_labels, predicted_labels, label):
     
     return precision_lable
 
+def recall(expected_labels, predicted_labels, label):
+    TN, TP, FP, FN = evaluate(expected_labels, predicted_labels, label)
+    
+    precision_lable = TP/(TP + FN)
+    
+    return precision_lable
+
 def Macro_averaging(expected_labels, predicted_labels):
     
     precision_ham = precision(expected_labels, predicted_labels, 0)
