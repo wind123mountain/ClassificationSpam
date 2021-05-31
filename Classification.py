@@ -6,7 +6,7 @@ class SpamClassification:
     HAM = 0
     SPAM = 1
     
-    def __init__(self, p, p_ti, t, e):
+    def __init__(self, p, p_ti, t, e = 3):
         self.P_HAM = p[self.HAM]
         self.P_SPAM = p[self.SPAM]
         self.P_ti_ham = p_ti[self.HAM]

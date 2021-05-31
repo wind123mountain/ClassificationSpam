@@ -1,7 +1,7 @@
 from random import shuffle
 from Train import split_lable
 
-def datas_split(samples, labels, train_ratio, val_ratio):
+def datas_split(samples, labels, train_ratio, val_ratio = 0):
     
     stick_samples_lable = split_lable(samples, labels)
     
