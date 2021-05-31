@@ -26,7 +26,6 @@ else:
 
 * Khởi tạo module
 ```
-import module
 classify = module.create_modul()
 ```
 
