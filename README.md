@@ -33,8 +33,6 @@ classify = module.create_modul()
 * Phân loại thư mới
 
 ```
-import 
-
 mail = '''Received: from linux.midrange.com (dial-62-64-223-40.access.uk.tiscali.com [62.64.223.40])
 	by linux.midrange.com (8.11.6/8.11.6) with SMTP id g6IDvRt21715
 	for <gibbs@midrange.com>; Thu, 18 Jul 2002 08:57:28 -0500
