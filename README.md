@@ -8,7 +8,7 @@ pip install gensim
 
 # Cài đặt/biên dịch/chạy chương trình
 
-Triển khai trên [COLAP](https://colab.research.google.com/drive/1dOfIfInPU9wL0EjSz8DxCVYMnZU8WsDO#scrollTo=aZ4pPSXTopv-)
+Triển khai trên [COLAP](https://colab.research.google.com/drive/1dOfIfInPU9wL0EjSz8DxCVYMnZU8WsDO#scrollTo=LMkNW9xu0lHw)
 
 * Cài đặt
 ```
